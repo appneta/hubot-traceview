@@ -4,7 +4,7 @@ chai.use require 'sinon-chai'
 
 expect = chai.expect
 
-describe 'hello-world', ->
+describe 'traceview', ->
   beforeEach ->
     @robot =
       respond: sinon.spy()
