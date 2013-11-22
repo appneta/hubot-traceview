@@ -1,6 +1,6 @@
 # Hubot TraceView
 
-Display latency information from TraceView applications.
+Display application latency information with [Appneta TraceView][1].
 
 [![Build Status](https://travis-ci.org/appneta/hubot-traceview.png)](https://travis-ci.org/appneta/hubot-traceview)
 
@@ -29,3 +29,5 @@ Add **hubot-traceview** to your `external-scripts.json`:
 ```
 
 Run `npm install`
+
+[1]: http://www.appneta.com/products/traceview/
