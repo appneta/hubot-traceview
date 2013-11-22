@@ -2,7 +2,7 @@
 
 Display latency information from TraceView applications.
 
-[![Build Status](https://travis-ci.org/hubot-scripts/hubot-example.png)](https://travis-ci.org/hubot-scripts/hubot-example)
+[![Build Status](https://travis-ci.org/appneta/hubot-traceview.png)](https://travis-ci.org/appneta/hubot-traceview)
 
 ## Installation
 
