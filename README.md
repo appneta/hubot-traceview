@@ -1,35 +1,31 @@
-# Hubot Example
+# Hubot TraceView
 
-An example script package for Hubot
+Display latency information from TraceView applications.
 
 [![Build Status](https://travis-ci.org/hubot-scripts/hubot-example.png)](https://travis-ci.org/hubot-scripts/hubot-example)
 
-## Directory Structure
+## Installation
 
-Using the common directory structure for hubot script packages it will be easy
-to manage and allow others to easily contribute to your package.
+Add **hubot-traceview** to your `package.json` file:
 
-### script
+```json
+"dependencies": {
+  "hubot": ">= 2.5.1",
+  "hubot-scripts": ">= 2.4.2",
+  "hubot-traceview": "git://github.com/appneta/hubot-traceview.git#master",
+  "hubot-hipchat": "~2.5.1-5",
+  "ntwitter": "~0.5.0",
+  "shellwords": "~0.1.0",
+  "bang": "~1.0.4",
+  "cheerio": "~0.12.3",
+  "moment": "~2.4.0"
+}
+```
 
-This directory is home to a couple of development scripts; `bootstrap` and `test`
-they're used to bootstrap the development environment and run tests
-respectively.
+Add **hubot-traceview** to your `external-scripts.json`:
 
-### src
+```json
+["hubot-traceview"]
+```
 
-This directory is home to the actual hubot scripts in the package. Your
-`index.coffee` entry point will load the scripts from this directory.
-
-### test
-
-This directory is home to any tests you write for your scripts. This example
-package uses Mocha, Chai and Sinon to manage writing tests.
-
-## Advantages of Building a Package
-
-Some of the advantages of building an npm package for your hubot script(s) are:
-
-* You don't need to rely on when hubot-scripts package is released.
-* You can specify dependencies in the `package.json` rather than have users
-  manually specify them
-* You can easily add tests using your favourite frameworks and libraries
+Run `npm install`
